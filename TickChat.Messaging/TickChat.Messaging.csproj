@@ -8,12 +8,9 @@
 
   <ItemGroup>
     <Folder Include="Contracts/" />
-    <Folder Include="Dtos/" />
-    <Folder Include="Services/" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="../TickChat.DataAccess/TickChat.DataAccess.csproj" />
+    <Folder Include="MessageQueueClients/" />
+    <Folder Include="Publishers/" />
+    <Folder Include="Subscribers/" />
   </ItemGroup>
 
 </Project>
